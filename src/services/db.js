@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://pizzaking-be.demos.jo3.org/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://pizzaking-be.thehibe.co.in/api';
 
 export const db = {
   // Products
