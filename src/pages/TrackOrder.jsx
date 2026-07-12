@@ -175,7 +175,7 @@ export default function TrackOrder() {
                   🏬
                 </div>
                 <span className="text-[8px] bg-slate-900 text-white font-black px-1.5 py-0.5 rounded shadow mt-1 block w-max mx-auto border border-slate-800">
-                  PIZZAHUB
+                  PIZZAKING
                 </span>
               </div>
 

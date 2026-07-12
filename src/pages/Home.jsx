@@ -48,7 +48,7 @@ export default function Home() {
     {
       name: "Marcus Aurelius",
       role: "Regular Customer",
-      comment: "The crust is incredibly light and crispy. It is close to authentic Neapolitan pizza. PizzaHub is my absolute favorite!",
+      comment: "The crust is incredibly light and crispy. It is close to authentic Neapolitan pizza. PizzaKing is my absolute favorite!",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&auto=format&fit=crop&q=80",
       rating: 5
     },
@@ -266,7 +266,7 @@ export default function Home() {
       {/* Why Choose Us Infographics */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-xl mx-auto mb-14">
-          <h2 className="text-3xl font-black tracking-tight text-slate-800">Why PizzaHub?</h2>
+          <h2 className="text-3xl font-black tracking-tight text-slate-800">Why PizzaKing?</h2>
           <p className="text-sm text-slate-500 mt-2">We maintain the highest standards of culinary quality.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

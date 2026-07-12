@@ -29,11 +29,8 @@ export default function Login() {
         className="max-w-md w-full bg-white border border-slate-100 rounded-3xl p-8 shadow-md text-center space-y-8"
       >
         {/* Brand visual header */}
-        <div className="space-y-4">
-          <span className="p-3 bg-red-500 rounded-2xl text-white inline-flex items-center justify-center text-3xl shadow-md shadow-red-500/10">
-            🍕
-          </span>
-          <h2 className="text-2xl font-black text-slate-800 tracking-tight">Welcome to PizzaHub</h2>
+        <div className="space-y-4 pt-4">
+          <h2 className="text-2xl font-black text-slate-800 tracking-tight">Welcome to PizzaKing</h2>
           <p className="text-xs text-slate-400 max-w-xs mx-auto leading-relaxed">
             Sign in to unlock exclusive promo coupons, track orders in real-time, and save multiple delivery addresses.
           </p>

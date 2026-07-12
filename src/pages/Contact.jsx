@@ -62,8 +62,8 @@ export default function Contact() {
                 <Mail className="text-red-500 w-5 h-5 shrink-0" />
                 <div>
                   <span className="text-slate-800 font-extrabold block">Email Inquiries</span>
-                  <a href="mailto:hello@pizzahub.com" className="text-slate-400 hover:text-red-500 transition-colors mt-1 block">
-                    hello@pizzahub.com
+                  <a href="mailto:hello@pizzaking.com" className="text-slate-400 hover:text-red-500 transition-colors mt-1 block">
+                    hello@pizzaking.com
                   </a>
                 </div>
               </div>
@@ -90,10 +90,10 @@ export default function Contact() {
               
               <div className="relative z-10 flex flex-col items-center">
                 <div className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center shadow-lg border-2 border-white animate-bounce">
-                  🍕
+                  <MapPin size={14} className="stroke-[3]" />
                 </div>
                 <span className="bg-slate-900/90 text-white text-[8px] font-black px-2 py-0.5 rounded shadow mt-1">
-                  PIZZAHUB HQ
+                  PIZZAKING HQ
                 </span>
               </div>
             </div>

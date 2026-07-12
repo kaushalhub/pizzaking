@@ -28,12 +28,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <span className="p-2 bg-red-500 rounded-2xl text-white group-hover:rotate-12 transition-transform duration-300 flex items-center justify-center">
-              🍕
-            </span>
+          <Link to="/" className="flex items-center group">
             <span className="text-xl sm:text-2xl font-black tracking-tight bg-gradient-to-r from-red-600 to-amber-500 bg-clip-text text-transparent">
-              PizzaHub
+              PizzaKing
             </span>
           </Link>
 

@@ -42,7 +42,7 @@ export default function About() {
         <div className="space-y-6">
           <h2 className="text-2xl sm:text-3xl font-black text-slate-800 tracking-tight">The Sourdough Secret</h2>
           <p className="text-sm text-slate-500 leading-relaxed">
-            At PizzaHub, we believe the heart of a great pizza is its crust. We don't use quick-rising commercial baker's yeast. Instead, we nurture a live sourdough starter that is over 8 years old, feeding it twice daily.
+            At PizzaKing, we believe the heart of a great pizza is its crust. We don't use quick-rising commercial baker's yeast. Instead, we nurture a live sourdough starter that is over 8 years old, feeding it twice daily.
           </p>
           <p className="text-sm text-slate-500 leading-relaxed">
             Every pizza dough ball is mixed by hand and allowed to ferment cold for 48 hours. This slow breakdown of starches creates a crust that is airy, chewy, slightly tangy, and incredibly light on the stomach.
@@ -95,7 +95,7 @@ export default function About() {
             <div key={idx} className="rounded-2xl overflow-hidden h-40 sm:h-52 bg-slate-50 border border-slate-100 shadow-sm">
               <img
                 src={img}
-                alt="PizzaHub culinary preview"
+                alt="PizzaKing culinary preview"
                 className="w-full h-full object-cover hover:scale-103 transition-transform duration-300"
               />
             </div>

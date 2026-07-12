@@ -55,12 +55,9 @@ export default function Footer() {
           
           {/* Brand details */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center space-x-2">
-              <span className="p-2 bg-red-500 rounded-xl text-white font-bold flex items-center justify-center">
-                🍕
-              </span>
+            <Link to="/" className="flex items-center">
               <span className="text-xl font-black tracking-tight text-white">
-                PizzaHub
+                PizzaKing
               </span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed">
@@ -136,7 +133,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-red-500 shrink-0" />
-                <a href="mailto:hello@pizzahub.com" className="hover:text-red-500 transition-colors">hello@pizzahub.com</a>
+                <a href="mailto:hello@pizzaking.com" className="hover:text-red-500 transition-colors">hello@pizzaking.com</a>
               </li>
             </ul>
           </div>
@@ -147,7 +144,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="bg-slate-950/80 border-t border-slate-900/60 py-6 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© {new Date().getFullYear()} PizzaHub Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} PizzaKing Inc. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-slate-300">Privacy Policy</a>
             <a href="#" className="hover:text-slate-300">Terms of Service</a>
